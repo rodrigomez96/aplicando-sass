@@ -1,0 +1,24 @@
+/*BOTON WSP*/
+
+.conteinerBoton {
+    background-color: rgba(59, 172, 59, 0.47);
+    border: 1px solid black;
+    position: fixed;
+    z-index: 2;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+}
+
+.boton {
+    border-radius: 50%;
+    width: 100px;
+    transition: ease 1s;
+}

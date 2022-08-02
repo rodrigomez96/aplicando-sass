@@ -1,0 +1,24 @@
+
+
+body {
+    background-image: linear-gradient(white, rgba(250, 148, 137, 0.499));
+}
+
+h2 {
+    color: $color-primario;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+section p {
+    color: $color-primario;
+}
+
+.mapaUbicacion {
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+}
