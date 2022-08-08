@@ -1,0 +1,22 @@
+/*MIXIN SIN PARAMETROS*/
+ 
+@mixin parrafos {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+/*MIXIN CON PARAMETROS*/
+@mixin parrafosConParametros($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+
+}
+
+.parrafosParaMixin {
+    @include parrafosConParametros(25px, right );
+}

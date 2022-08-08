@@ -1,0 +1,25 @@
+/*MAPS*/
+$mapRedes: (
+    correo:blue,
+    insta:orange,
+    cel: purple
+);
+
+@each $red,
+$color in $mapRedes {
+    .#{$red} {
+    background-color: $color;
+}
+
+}
+
+/* MAP - GET*/
+$estilo: (
+    color:rgb(255, 107, 186),
+    tamFuente:20px
+);
+
+.pepeLePu {
+    background-color: map-get($map: $estilo, $key: color);
+    font-size: map-get($map: $estilo, $key: tamFuente);
+}

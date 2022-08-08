@@ -83,7 +83,7 @@ footer {
       align-items: center;
       border-radius: 50px;
       transition: all 0.3s ease-in-out; }
-    .contact .info h4 {
+    .contact .info h3 {
       padding: 0 0 0 60px;
       font-size: 22px;
       font-weight: 600;
@@ -92,8 +92,8 @@ footer {
     .contact .info p {
       padding: 0 0 10px 60px;
       margin-bottom: 20px;
-      font-size: 14px;
-      color: #173b6c; }
+      font-size: 16px;
+      color: white; }
     .contact .info .email p {
       padding-top: 5px; }
     .contact .info .social-links {
@@ -218,3 +218,41 @@ footer {
   border-radius: 50%;
   width: 100px;
   transition: ease 1s; }
+
+/*MAPS*/
+.correo {
+  background-color: blue; }
+
+.insta {
+  background-color: orange; }
+
+.cel {
+  background-color: purple; }
+
+/* MAP - GET*/
+.pepeLePu {
+  background-color: #ff6bba;
+  font-size: 20px; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.segundoEstilo {
+  font-size: 20px; }
+
+/*MIXIN SIN PARAMETROS*/
+.parrafosConEstilo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  text-align: center; }
+
+/*MIXIN CON PARAMETROS*/
+.parrafosParaMixin {
+  font-size: 25px;
+  text-align: right; }
